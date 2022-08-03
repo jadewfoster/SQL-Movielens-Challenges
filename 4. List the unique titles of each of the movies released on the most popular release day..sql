@@ -10,4 +10,4 @@ ORDER BY COUNT(day(release_date)) DESC
 LIMIT 1;
 	SELECT DISTINCT title, release_date
 	FROM movielens.movies
-	WHERE day(release_date) = 1
+	WHERE day(release_date) = 1;
